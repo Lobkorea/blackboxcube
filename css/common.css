@@ -41,11 +41,15 @@ button {width:100px; height:30px; cursor:pointer; border-radius:3px;}
 #id-header .class-logo {float:left; width:33.33333%; height:50px; text-indent:-999em; background:url(../img/lg_logo.png) no-repeat left center;}
 #id-header .class-cube {float:left; width:33.33333%; text-indent:-9999em; background:url(../img/cube_logo.png) no-repeat center;}
 #id-header .class-pri {float:left; width:33.33333%; font-size:16px; color:#f4f4f4; text-align:right;}
+#id-header .class-pri.class-appPri {margin-top:20px;}
 
 #id-header.class-appHd h1 {display:none;}
 #id-header.class-appHd .class-accessInfoWrap {float:left; width:33.33333%; padding-top:8px; text-align:left; line-height:1em;}
 #id-header.class-appHd .class-accessInfoWrap p {color:#FFF; font-size:16px;}
 #id-header.class-appHd .class-accessInfoWrap .class-groupName {margin-bottom:16px; vertical-align:top;}
+
+.class-btnLogout {position:absolute; top:45px; right:50px; border:1px solid #fff; color:#fff; background:transparent;}
+.class-btnLogout:hover, .class-btnLogout:focus {color:#333; background:#fff;}
 /* Header E */
 
 /* Container */
