@@ -40,15 +40,21 @@ button {width:100px; height:30px; cursor:pointer; border-radius:3px;}
 #id-header{top:0; padding:45px 50px; line-height:60px;}
 #id-header .class-logo {float:left; width:33.33333%; height:50px; text-indent:-999em; background:url(../img/lg_logo.png) no-repeat left center;}
 #id-header .class-cube {float:left; width:33.33333%; text-indent:-9999em; background:url(../img/cube_logo.png) no-repeat center;}
-#id-header .class-pri {float:left; width:33.33333%; font-size:16px; color:#f4f4f4; text-align:right;}
-#id-header .class-pri.class-appPri {margin-top:20px;}
-
+#id-header .class-priWrap {float:left; width:33.33333%;}
+#id-header .class-priWrap .class-pri {font-size:16px; color:#f4f4f4; text-align:right; line-height:1em;}
+#id-header .class-priWrap div {text-align:right;}
+#id-header .class-priWrap div a {display:inline-block; width:100px; height:30px; border:1px solid #FFF; margin-left:6px; border-radius:3px; line-height:28px; text-align:left; padding-left:35px; background:no-repeat 10px center; color:#FFF;}
+#id-header .class-priWrap div a:hover, #id-header .class-priWrap div a:focus {color:#333; background-color:#fff;}
+#id-header .class-priWrap div a.class-btnSupport {background-image:url(../img/icon_mail.png);}
+#id-header .class-priWrap div a.class-btnHelp {background-image:url(../img/icon_quest.png);}
+#id-header .class-priWrap div a.class-btnSupport:hover, #id-header .class-priWrap div a.class-btnSupport:focus {background-image:url(../img/icon_mail_ov.png);}
+#id-header .class-priWrap div a.class-btnHelp:hover, #id-header .class-priWrap div a.class-btnHelp:focus {background-image:url(../img/icon_quest_ov.png);}
 #id-header.class-appHd h1 {display:none;}
 #id-header.class-appHd .class-accessInfoWrap {float:left; width:33.33333%; padding-top:8px; text-align:left; line-height:1em;}
 #id-header.class-appHd .class-accessInfoWrap p {color:#FFF; font-size:16px;}
 #id-header.class-appHd .class-accessInfoWrap .class-groupName {margin-bottom:16px; vertical-align:top;}
 
-.class-btnLogout {position:absolute; top:45px; right:50px; border:1px solid #fff; color:#fff; background:transparent;}
+.class-btnLogout {margin-top:15px; border:1px solid #fff; color:#fff; background:transparent; margin-left:6px;}
 .class-btnLogout:hover, .class-btnLogout:focus {color:#333; background:#fff;}
 /* Header E */
 
